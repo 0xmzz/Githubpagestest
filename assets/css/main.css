@@ -3284,7 +3284,7 @@ table.alt tbody tr td {
 }
 
 .wrapper.style2 {
-  background-color: #d1d0d0;
+  background-color: #ada9a9;
   color: #aed6f1;
 }
 
@@ -3522,6 +3522,13 @@ table.alt tbody tr td {
 @media screen and (max-width: 736px) {
   .wrapper {
     padding: 3em 0 1em 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
   }
 }
 
